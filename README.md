@@ -15,10 +15,18 @@
 Please note that operation has not been confirmed on any operating system other than Windows.
 
 ## Windows
-_You need a Visual Studio Developer Command Prompt._
+_You will need to have **Visual Studio Developer Command Prompt** or **CMake** installed._
 
 ```
 cl /std:c++17 /EHsc day_of_week.cpp
+```
+
+```
+mkdir build
+cd build
+
+cmake ..
+cmake --build .
 ```
 ## macOS
 _Compatible with Intel and Apple Silicon Mac._
